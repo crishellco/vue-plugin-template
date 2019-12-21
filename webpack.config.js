@@ -4,9 +4,9 @@ module.exports = {
   mode: process.env.NODE_ENV,
   entry: ['./src/index.js'],
   output: {
-    library: 'VueUnleash',
+    library: 'VuePluginTemplate',
     libraryTarget: 'umd',
-    filename: 'vue-unleash.js',
+    filename: 'index.js',
     globalObject: "typeof self !== 'undefined' ? self : this"
   },
   module: {
